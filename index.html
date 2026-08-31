@@ -213,11 +213,21 @@
 
   .logo-img { display: block; margin: 0 auto; width: 190px; height: auto; }
 
+  .page-footer {
+    width: 100%;
+    max-width: 620px;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 12px;
+    color: #7a7266;
+  }
+
   @media print {
     body { background: #fff; padding: 0; }
     .toolbar { display: none; }
     .label-wrap { border: 2px solid #7a1f2d; box-shadow: none; max-width: 100%; }
     .field-row .val { border-bottom: 1px dotted #b5a68f; }
+    .page-footer { display: none; }
   }
 </style>
 </head>
@@ -317,6 +327,8 @@
 
     <div class="footer-banner">📖 Books inside — handle with care 📖</div>
   </div>
+
+  <div class="page-footer">© 2026 Anmol Titoriya</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
